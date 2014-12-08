@@ -66,6 +66,22 @@ html, body {width: 100%;height: 100%;}
   right: 0;
 }
 
+/* Responsive Video Stage
+================================================== */
+.video-stage {
+	height: 0;
+	width: 100%;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.video-stage iframe {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 /***************************************
 [ Typography Notes ]
 Body copy:	Font:	Size: 	
