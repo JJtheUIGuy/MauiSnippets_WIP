@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+  <section class="col-md-12 center-block">
+    <div class="video-stage"> 
+      <!-- Include the default video to be viewed -->
+      <iframe src="//youtu.be/74IYlvimJH0?list=UUEAApuHTYHmvkP9kn2aNECw" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>video</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
