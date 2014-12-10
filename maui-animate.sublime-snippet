@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<!-- Anamation 
+<!-- Anamation
+for information regarding animation styles visit: daneden.github.io/animate.css
         ========================================= -->
         <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
         <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js"></script>
