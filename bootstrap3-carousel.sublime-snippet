@@ -11,18 +11,23 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="..." alt="...">
+      <img src="http://dummyimage.com/1200x500/f00/fff" class="img-responsive">
       <div class="carousel-caption">
-        ...
+        Maui is the main figure in many Hawaiian island myths and legends.
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+      <img src="http://dummyimage.com/1200x500/f00/fff" class="img-responsive">
       <div class="carousel-caption">
-        ...
+        Maui is the main figure in many Hawaiian island myths and legends.
       </div>
     </div>
-    ...
+    <div class="item">
+      <img src="http://dummyimage.com/1200x500/f00/fff" class="img-responsive">
+      <div class="carousel-caption">
+        Maui is the main figure in many Hawaiian island myths and legends.
+      </div>
+    </div>
   </div>
 
   <!-- Controls -->
