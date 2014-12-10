@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<h2>Māui  lassoes the sun’s rays</h2>
+<h2>Māui lassoes the sun’s rays</h2>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>h2title</tabTrigger>
