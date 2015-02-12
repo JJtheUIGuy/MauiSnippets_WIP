@@ -128,58 +128,94 @@ with every subsequent heading level
 /* BREAKPOINTS
 ================================================== */
 
-/* 3X 2000px and up (Example: Large HD Desktop)
+/* Smaller than Media Query
+****************************************************************************** */
+
+/* Applied to resolutions less than 2000 - Not applied to larger than 2000px 
+================================================== */
+@media (max-width: 2000px) {
+
+}
+
+/* Applied to resolutions less than 1740 - Not applied to larger than 1740px 
+================================================== */
+@media (max-width: 1740px) {
+
+}
+
+/* Applied to resolutions less than 1500 - Not applied to larger than 1500px 
+================================================== */
+@media (max-width: 1500px) {
+
+}
+
+/* Applied to resolutions less than 1200 - Not applied to larger than 1200px 
+================================================== */
+@media (max-width: 1200px) {
+
+}
+
+/* Applied to resolutions less than 990 - Not applied to larger than 990px 
+================================================== */
+@media (max-width: 990px) {
+
+}
+
+/* Applied to resolutions less than 768 - Not applied to larger than 768px 
+================================================== */
+@media (max-width: 768px) {
+
+}
+
+/* Applied to resolutions less than 480 - Not applied to larger than 480px 
+================================================== */
+@media (max-width: 480px) {
+
+}
+
+/* Larger than Media Query
+****************************************************************************** */
+
+/* Applied to resolutions larger than 2000 - Applied to larger than 2000px 
 ================================================== */
 @media (min-width: 2000px) {
 
 }
 
-/* 2X 1740px - 3X 2000px (Example: Med HD Desktop)
+/* Applied to resolutions larger than 1500 - Applied to larger than 1500px 
 ================================================== */
-@media (min-width: 1741px) and (max-width: 1999px) {
+@media (min-width: 1500px) {
 
 }
 
-/* XL 1500px - 2X 1740px (Example: Large SD Desktop)
+/* Applied to resolutions larger than 1200 - Applied to larger than 1200px 
 ================================================== */
-@media (min-width: 1501px) and (max-width: 1740px) {
+@media (min-width: 1200px) {
 
 }
 
-/* LG 1200px - XL 1500px (Example: SD Desktop)
+/* Applied to resolutions larger than 990 - Applied to larger than 990px 
 ================================================== */
-@media (min-width: 1201px) and (max-width: 1500px) {
+@media (min-width: 990px) {
 
 }
 
-/* MD 992px - LG 1200px (Example: Tablet)
+/* Applied to resolutions larger than 768 - Applied to larger than 768px 
 ================================================== */
-@media (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 768px) {
 
 }
 
-/* SM 768px - MD 992px (Example: Tablet - HD Phones)
+/* Applied to resolutions larger than 480 - Applied to larger than 480px 
 ================================================== */
-@media (min-width: 769px) and (max-width: 992px) {
-
-}
-
-/* XS 480px - SM 768px (Example: Vertical SD Phones)
-================================================== */
-@media (min-width: 481px) and (max-width: 768px) {
-
-}
-
-/* < XS 480px (Example: Vertical Low-Res Phones)
-================================================== */
-@media (max-width: 480px) {
+@media (min-width: 480px) {
 
 }
 
 /***************************************
 Default Style Sheet created as part of - The Maui Toolbox
 For more information visit: www.mauitoolbox.com
-pub-20141210
+pub-20151202
 ***************************************/
 
 ]]></content>
