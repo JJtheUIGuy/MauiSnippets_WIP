@@ -1,0 +1,95 @@
+<snippet>
+	<content><![CDATA[
+*/ Add this to line 23 in a mauipage /*
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+/* Training Styles
+================================================== */
+.ts1 {
+  padding: 20px;
+  color: #000;
+}
+.ts2 {
+  padding: 20px;
+  color: #000;
+}
+.ts3 {
+  padding: 20px;
+  color: #000;
+}
+.ts4 {
+  padding: 20px;
+  color: #000;
+}
+.ts5 {
+  padding: 20px;
+  color: #000;
+}
+.ts6 {
+  padding: 20px;
+  color: #000;
+}
+.ts7 {
+  padding: 20px;
+  color: #000;
+}
+.ts8 {
+  padding: 20px;
+  color: #000;
+}
+.ts9 {
+  padding: 20px;
+  color: #000;
+}
+.ts10 {
+  padding: 20px;
+  color: #000;
+}
+.ts12 {
+  padding: 20px;
+  color: #000;
+}
+.ts13 {
+  padding: 20px;
+  color: #000;
+}
+.ts14 {
+  padding: 20px;
+  color: #000;
+}
+.ts15 {
+  padding: 20px;
+  color: #000;
+}
+.ts16 {
+  padding: 20px;
+  color: #000;
+}
+.ts17 {
+  padding: 20px;
+  color: #000;
+}
+.ts18 {
+  padding: 20px;
+  color: #000;
+}
+.ts19 {
+  padding: 20px;
+  color: #000;
+}
+.ts20 {
+  padding: 20px;
+  color: #000;
+}
+
+/***************************************
+Training Style Sheet created as to teach - The Maui Toolbox
+For more information visit: www.mauitoolbox.com
+pub-20152702
+***************************************/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>trainingstyles</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
