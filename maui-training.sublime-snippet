@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 */ Add this to line 23 in a mauipage and save this doc as: trainingstyles.css /*
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/trainingstyles.css">
+<link rel="stylesheet" type="text/css" href="css/trainingstyles.css">
 
 /* Training Styles
 ================================================== */
