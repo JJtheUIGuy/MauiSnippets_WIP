@@ -1,85 +1,85 @@
 <snippet>
 	<content><![CDATA[
-*/ Add this to line 23 in a mauipage /*
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+*/ Add this to line 23 in a mauipage and save this doc as: trainingstyles.css /*
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/trainingstyles.css">
 
 /* Training Styles
 ================================================== */
 .ts1 {
   padding: 20px;
-  color: #000;
+  background: #900;
 }
 .ts2 {
   padding: 20px;
-  color: #000;
+  background: #090;
 }
 .ts3 {
   padding: 20px;
-  color: #000;
+  background: #009;
 }
 .ts4 {
   padding: 20px;
-  color: #000;
+  background: #909;
 }
 .ts5 {
   padding: 20px;
-  color: #000;
+  background: #090;
 }
 .ts6 {
   padding: 20px;
-  color: #000;
+  background: #990;
 }
 .ts7 {
   padding: 20px;
-  color: #000;
+  background: #099;
 }
 .ts8 {
   padding: 20px;
-  color: #000;
+  background: #999;
 }
 .ts9 {
   padding: 20px;
-  color: #000;
+  background: #555;
 }
 .ts10 {
   padding: 20px;
-  color: #000;
+  background: #505;
 }
 .ts12 {
   padding: 20px;
-  color: #000;
+  background: #050;
 }
 .ts13 {
   padding: 20px;
-  color: #000;
+  background: #005;
 }
 .ts14 {
   padding: 20px;
-  color: #000;
+  background: #500;
 }
 .ts15 {
   padding: 20px;
-  color: #000;
+  background: #fff;
 }
 .ts16 {
   padding: 20px;
-  color: #000;
+  background: #0f0;
 }
 .ts17 {
   padding: 20px;
-  color: #000;
+  background: #f0f;
 }
 .ts18 {
   padding: 20px;
-  color: #000;
+  background: #ff0;
 }
 .ts19 {
   padding: 20px;
-  color: #000;
+  background: #0ff;
 }
 .ts20 {
   padding: 20px;
-  color: #000;
+  background: #ccf;
 }
 
 /***************************************
