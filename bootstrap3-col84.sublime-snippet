@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-	<div class="col-md-8">
-	</div>
-	<div class="col-md-4">
-	</div>
+<div class="col-md-8">
+</div>
+<div class="col-md-4">
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>col84</tabTrigger>

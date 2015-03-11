@@ -1,12 +1,16 @@
 <snippet>
 	<content><![CDATA[
-<div class="col-md-7">
-</div>
-<div class="col-md-5">
+<div class="pong">
+	<div class="col-${9:md}-${10}">
+
+	</div>
+	<div class="col-${11:md}-${12}">
+
+	</div>
 </div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>col75</tabTrigger>
+	<tabTrigger>pong</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

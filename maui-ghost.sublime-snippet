@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+/* Ghost Buttons
+================================================== */
+.ghost-white {
+	border-radius: 6px;
+	border: solid 2px #fff;
+	color: #fff;
+	display: inline-block;
+	margin: 20px auto;
+	padding: 5px 20px;
+	text-decoration: none!important;
+	width: inherit;
+	background: none;
+}
+.ghost-white:hover {
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+.ghost-blk {
+	border-radius: 6px;
+	border: solid 2px #000;
+	color: #000;
+	display: inline-block;
+	margin: 20px auto;
+	padding: 5px 20px;
+	text-decoration: none!important;
+	width: inherit;
+	background: none;
+}
+.ghost-blk:hover {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ghost</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

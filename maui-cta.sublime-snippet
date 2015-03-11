@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="row cta-banner">
+	<div class="">
+		<div class="col-md-8">
+			<span class="cta-title">Call to action</span>
+			<br>
+			<span class="cta-text">Supporting Statement</span>
+		</div>
+		<div class="col-md-4">
+			<a href="#" class="ghost-white">CTA Link</a>
+		</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cta</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
