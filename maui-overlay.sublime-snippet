@@ -1,5 +1,8 @@
 <snippet>
 	<content><![CDATA[
+
+/* Overlay
+================= */
 .overlay {
   position: absolute;
   /*== Height of covering box ==*/
