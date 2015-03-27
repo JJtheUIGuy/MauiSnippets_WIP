@@ -1,0 +1,69 @@
+<snippet>
+	<content><![CDATA[
+<!-- ****************************************************************************
+These are your CSS styles. Add line 7-16 to your style sheet.
+ **************************************************************************** -->
+
+#id-name { 
+	background: url(http://dummyimage.com/1200x200/111/fff); 
+	height: auto;  
+	margin: 0 auto; 
+    background-size: cover;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    position: relative; 
+    width: 100%; 
+}
+
+<!-- ****************************************************************************
+This a custom Javascript. Add line 22 under Custom Scripts of your HTML mauipage
+ **************************************************************************** -->
+
+<script src="js/para.js"></script>
+
+<!-- ****************************************************************************
+This is an example parallaxing section wrapper. Add line 32-35 inside your HTML body.
+You need to add an style (line7-16) for EACH parallaxing section wrapper (line 32-35)
+Remember to sync the #id between the style and the section wrapper.
+The parallaxing speed is controlled by the | data-speed="#" | in the section wrapper.
+The higher the number applied to data-speed the slower the parallax effect. 1 = fastest
+ **************************************************************************** -->
+	
+<!-- Parallaxing Section Wrapper -->
+	<section id="id-name" data-speed="2" data-type="background">
+		
+	</section>
+
+****************************************************************************
+Save line 40-60 to a new page in your js folder as para.js
+****************************************************************************
+\$(document).ready(function(){
+   // cache the window object
+   \$window = \$(window);
+ 
+   \$('section[data-type="background"]').each(function(){
+     // declare the variable to affect the defined data-type
+     var \$scroll = \$(this);
+                     
+      \$(window).scroll(function() {
+        // HTML5 proves useful for helping with creating JS functions!
+        // also, negative value because we're scrolling upwards                            
+        var yPos = -(\$window.scrollTop() / \$scroll.data('speed'));
+         
+        // background position
+        var coords = '50% '+ yPos + 'px';
+ 
+        // move the background
+        \$scroll.css({ backgroundPosition: coords });   
+      }); // end window scroll
+   });  // end section function
+}); // close out script
+
+/* Create HTML5 element for IE */
+document.createElement("section");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>parallax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
