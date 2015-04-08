@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+.backtotop {
+	background: rgba(000,000,000, .5);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	bottom: 0;
+	color: #fff;
+	font-size: 28px;
+	height: 44px;
+	padding: 8px 0;
+	position: fixed;
+	right: 15px;
+	text-align: center;
+	width: 65px;
+	z-index: 20;
+}
+.backtotop:hover {
+	background: #000;
+}
+**** Add this code into your HTML page ****
+<a href="#topofpage"><div class="backtotop"> ^ </div></a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>backtotop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
