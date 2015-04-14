@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<!--[if IE]>
+<div style='clear: both; height: 112px; padding:0; position: relative;'>
+<img src="#" border="0" height="112" width="348" alt="" />
+</div>
+<![endif]-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ie8</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
