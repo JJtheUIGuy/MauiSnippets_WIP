@@ -16,27 +16,29 @@ This a custom Javascript. Add line 13 under Custom Scripts of your HTML mauipage
 Add line 19-40 inside your HTML body.
  **************************************************************************** -->
 
-<!-- Video Player -->	
-    <section class="video-container">
-        <div class="video-player">
-            <!-- Include the default video to be viewed -->
-            <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/mjB6Zm39Lno" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="video-playlist">
-            <div class="playlist-heading">
-                <span>Related Videos</span>
-            </div>
-            <nav>
-                ul id="video-list"></ul>
-            </nav>
-        </div>
-    </section>
+<!-- Video Player -->
 
-    <script id="videotpl" type="text/template">
-        {{#videos}}
-            <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
-        {{/videos}}
-    </script>
+<section class="video-container">
+    <div class="video-player">
+        <!-- Include the default video to be viewed -->
+        <iframe name="ifrm" id="ifrm" src="//www.youtube.com/embed/mjB6Zm39Lno" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-playlist">
+        <div class="playlist-heading">
+            <span>Related Videos</span>
+        </div>
+        <nav>
+            <ul id="video-list"></ul>
+        </nav>
+    </div>
+</section>
+
+<script id="videotpl" type="text/template">
+  {{#videos}}
+    <li><a href="{{url}}" onclick="return loadIframe('ifrm', this.href);">{{{title}}}</a></li>
+  {{/videos}}
+</script>
+
 <!-- End Video Player -->
 
 ****************************************************************************
