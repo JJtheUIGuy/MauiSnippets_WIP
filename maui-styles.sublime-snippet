@@ -1,52 +1,23 @@
 <snippet>
 	<content><![CDATA[
-/*********************
+
+/* google.com/fonts import files go above this line ^
+
+=== Project Info =====
 Project:	
 Edit date:
-*********************/
 
-/* =================================== *
- *   Maui Custom Styles DO NOT EDIT   *
- * =================================== */
-html, body{width: 100%;height: 100%;}
-a{text-decoration:none;}
-footer{background: #999;}
-section{margin-bottom:15px;margin-top:15px;padding-bottom:15px;padding-top:15px;}
-.cta-banner{background: #0074b0;border-radius: 6px;color: #fff;margin: 60px 0px;padding: 20px;}
-.ghost-blk{border-radius: 6px;border: solid 2px #000;color: #000;display: inline-block;margin: 20px auto;padding: 5px 20px;text-decoration: none!important;width: inherit;background: none;}
-.ghost-blk:hover{background: #000;color: #fff;cursor: pointer;text-decoration: none;}
-.ghost-white{border-radius: 6px;border: solid 2px #fff;color: #fff;display: inline-block;margin: 20px auto;padding: 5px 20px;text-decoration: none!important;width: inherit;background: none;}
-.ghost-white:hover{background: #fff;color: #000;cursor: pointer;text-decoration: none;}
-.maui-mm .container{position: relative;}
-.maui-mm .dropdown-menu{left: auto;}
-.maui-mm .dropdown.maui-mm-fw .dropdown-menu{left: 0;right: 0;}
-.maui-mm .maui-mm-content{padding: 20px 30px;}
-.maui-mm .nav, .maui-mm .collapse, .maui-mm .dropup, .maui-mm .dropdown{position: static;}
-.navbar{margin-bottom: 0;}
-.no-pad{padding: 0;}
-.row.no-gut > [class*='col-']{padding-right:0;padding-left:0}
-.row.no-gut{margin-right:0;margin-left:0;}
-.video-stage iframe{height: 100%;width: 100%;position: absolute;top: 0;left: 0;}
-.video-stage{height: 0;width: 100%;padding-bottom: 56.25%;position: relative;}
+======= Color ========
+Primary Color: 
+Secondary Color: 
+Third Color: 
+Grey:
 
-/*********************
-# Primary Color: 
-# Secondary Color: 
-# Third Color: 
-# Grey: 
-*********************/
+===== Typography ======
+Font Family:
+Weights:
 
-body {
-	color: # ;
-	font-family: ;
-	font-size: ;
-	line-height: ;}
-a  {color: # ;}
-h1 {font-size: px;}
-h2 {font-size: px;}
-h3 {font-size: px;}
-h4 {font-size: px;}
-
+*/
 
 /* Nav / Menus
 ================= */
@@ -56,60 +27,52 @@ h4 {font-size: px;}
 ================= */
 
 
-/* Footer
-================= */
-
-
 /* Content
 ================= */
 
 
+/* Footer
+================= */
+
 
 /**********************************************************
 Media Querys (480px, 768px, 990px, 1200px, 1500px, 2000px)
-*********************************************************** */
+***********************************************************/
 
 /* Smaller than
 ================= */
 
-/* Applied to resolutions less than 2000
-Not applied to larger than 2000px */
+/* Applied to resolutions less than 2000 (3x) */
 	@media (max-width: 2000px) {
 
 	}
 
-/* Applied to resolutions less than 1740
-Not applied to larger than 1740px */
+/* Applied to resolutions less than 1740 (2x) */
 	@media (max-width: 1740px) {
 
 	}
 
-/* Applied to resolutions less than 1500
-Not applied to larger than 1500px */
+/* Applied to resolutions less than 1500 (Xl) */
 	@media (max-width: 1500px) {
 
 	}
 
-/* Applied to resolutions less than 1200
-Not applied to larger than 1200px */
+/* Applied to resolutions less than 1200 (lg) */
 	@media (max-width: 1200px) {
 
 	}
 
-/* Applied to resolutions less than 990
-Not applied to larger than 990px */
+/* Applied to resolutions less than 990 (md) */
 	@media (max-width: 990px) {
 
 	}
 
-/* Applied to resolutions less than 768
-Not applied to larger than 768px */
+/* Applied to resolutions less than 768 (sm) */
 	@media (max-width: 768px) {
 
 	}
 
-/* Applied to resolutions less than 480
-Not applied to larger than 480px */
+/* Applied to resolutions less than 480 (XS) */
 	@media (max-width: 480px) {
 
 	}
@@ -117,51 +80,45 @@ Not applied to larger than 480px */
 /* Larger than
 ================= */
 
-/* Applied to resolutions larger than 2000
-Applied to larger than 2000px */
-	@media (min-width: 2000px) {
+/* Applied to resolutions larger than 2000 (3x) */
+	@media (min-width: 2001px) {
 
 	}
 
-/* Applied to resolutions larger than 1500
-Applied to larger than 1500px */
-	@media (min-width: 1500px) {
+/* Applied to resolutions larger than 1500 (2x) */
+	@media (min-width: 1501px) {
 
 	}
 
-/* Applied to resolutions larger than 1200
-Applied to larger than 1200px */
-	@media (min-width: 1200px) {
+/* Applied to resolutions larger than 1200 (xl) */
+	@media (min-width: 1201px) {
 
 	}
 
-/* Applied to resolutions larger than 990
-Applied to larger than 990px */
-	@media (min-width: 990px) {
+/* Applied to resolutions larger than 990 (lg) */
+	@media (min-width: 991px) {
 
 	}
 
-/* Applied to resolutions larger than 768
-Applied to larger than 768px */
-	@media (min-width: 768px) {
+/* Applied to resolutions larger than 768 (sm) */
+	@media (min-width: 769px) {
 
 	}
 
-/* Applied to resolutions larger than 480
-Applied to larger than 480px */
-	@media (min-width: 480px) {
+/* Applied to resolutions larger than 480 (xs) */
+	@media (min-width: 481px) {
 
 	}
 
 /***************************************
 Default Style Sheet created as part of - The Maui Toolbox
 For more information visit: www.mauitoolbox.com
-pub-20152603
+pub-20150501
 ***************************************/
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mauistyles</tabTrigger>
+	<tabTrigger>styles</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

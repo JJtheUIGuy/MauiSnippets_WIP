@@ -3,55 +3,33 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Maui Page Defaut template
-		================================================== -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="Description" content="#"> <!-- (Example: Compelling description to be displayed on Search Engine) -->
 		<meta name="author" content="#"> <!-- (example: Developers Name) -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		
-		<title>[SEO APPROVED PAGE TITLE]</title>
-		
-		<!-- Bootstrap/Font-Awesome Local ** Download to /css/ **
-		====================================================== 
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-
-		<!-- Bootstrap/Font-Awesome on CDN ** NOT IE8 Compatible **
-		======================================================  -->
+		<title>[PAGE TITLE]</title>
+<!-- (Extrenal) Default Style Sheets =========== -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-		
-		<!-- Default Maui Style Sheets
-		========================================= -->
-		<link rel="stylesheet" type="text/css" href="css/mauistyles.css">
-		<link rel="stylesheet" type="text/css" href="css/blimp.css">
-		
-		<!-- CUSTOM STYLES (Don't get cocky kid!)
-		========================================= -->
-		
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
-		=================================================================================== -->
-		<!--[if lt IE 9]>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
-		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/blimp.css">
+		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/maui.css">	
+<!-- Style Sheets ============================== -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- Additional Style Sheets =================== -->
+
 	</head>
 	<body>
-	
-		<!-- START SCRIPT IMPORTS -->
-		<!-- Before adding localy hosted scripts check http://cdnjs.com/ -->
+<!--[if IE]><div style='clear: both; height: 200px; width: 4000px; background-color: #ffffff; padding:15; position: relative;'><h1>Your Browser is not supported</h1><p>Minimum requirement to view this page:<br>Internet Explorer 9 / Google Chrome / Firefox / Safari</p></div><![endif]-->
+<!-- Content starts here ======================= -->
 
-		<!-- JQuery and Bootstrap JS
-		================================== -->
+
+
+<!-- Default Scripts =========================== -->
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- Custom Scripts below this line ============ -->
 
-		<!-- Custom Scripts
-		================================== -->
-		
-		<!-- END SCRIPT IMPORTS -->
 	</body>
 </html>
 ]]></content>

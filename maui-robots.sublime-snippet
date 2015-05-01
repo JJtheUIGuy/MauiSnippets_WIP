@@ -1,9 +1,17 @@
 <snippet>
 	<content><![CDATA[
-<a href="#topofpage"><div class="backtotop"> ^ </div></a>
+<!-- Web.Config Configuration File -->
+User-Agent: *
+ Allow: /
+ Disallow: /_dev/
+ Disallow: /_working/
+ Disallow: /_working/
+ Disallow: /email-blast/
+ Disallow: /includes/
+-Disallow: /js/
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>backtotop</tabTrigger>
+	<tabTrigger>robots</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
