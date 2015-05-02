@@ -1,10 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<!--[if IE]>
-<div style='clear: both; height: 112px; padding:0; position: relative;'>
-<img src="#" border="0" height="112" width="348" alt="" />
-</div>
-<![endif]-->
+<!--[if IE]><div style='clear: both; height: 200px; width: 4000px; background-color: #ffffff; padding:15; position: relative;'><h1>Your Browser is not supported</h1><p>Minimum requirement to view this page:<br>Internet Explorer 9 / Google Chrome / Firefox / Safari</p></div><![endif]-->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ie8</tabTrigger>
