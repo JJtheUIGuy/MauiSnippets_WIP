@@ -26,37 +26,30 @@
 	<div id="loader"></div>
 
 	<div class="container">
-<!-- This is the main container (#scroll-container) -->
-		<div id="scroll-container" class="row">
+		<div class="row">
+<!-- This is the container that will be loaded  -->
 			<div class="content">
 <!-- Your page content -->
 				<div class="col-sm-12">
 					<div class="item">
-						<img src="http://dummyimage.com/1600x2000/f00/fff" class="img-responsive">
+						<img src="http://dummyimage.com/1600x2000/0f0/fff" class="img-responsive">
 					</div>	
 				</div>
 <!-- End Your page content -->
 			</div>
 		</div>
 	</div>
-<!-- These are all the links that can be loaded. -->
-	<div id="pages">
-		<a href="index.html"></a>
-		<a href="page2.html"></a>
-	</div>
-
 
 <!-- Default Scripts =========================== -->
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-		<script src="http://gl-dev-staticweb.s3.amazonaws.com/infinite.js"></script>
 <!-- Custom Scripts below this line ============ -->
 
 	</body>
 </html>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>infinite</tabTrigger>
+	<tabTrigger>infinitesub</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

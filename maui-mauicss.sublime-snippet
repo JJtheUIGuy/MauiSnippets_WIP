@@ -26,10 +26,14 @@ section{padding-bottom:15px;padding-top:15px;}
 .video-stage{height: 0;width: 100%;padding-bottom: 56.25%;position: relative;}
 .backtotop {background: rgba(000,000,000, .5);border-top-left-radius: 6px;border-top-right-radius: 6px;bottom: 0;color: #fff;font-size: 28px;height: 44px;padding: 8px 0;position: fixed;right: 15px;text-align: center;width: 65px;z-index: 20;}
 .backtotop:hover {background: #000;}
+.mason>.row {-moz-column-width: 18em;-webkit-column-width: 18em;-moz-column-gap: 1em;-webkit-column-gap:1em;}
+.brick {display: inline-block;padding: .25rem;width:  100%;}
+.well {position:relative;display: block;}
+.rt-tag {background: rgba(000,000,000, .5);border-top-left-radius: 6px;border-bottom-left-radius: 6px;right: 0;color: #fff;font-size: 16px;height: 100px;padding: 8px;position: fixed;top: 20%;text-align: center;width: 65px;z-index: 50;}
 /***************************************
 Default Style Sheet created as part of - The Maui Toolbox
 For more information visit: www.mauitoolbox.com
-pub-20150501
+pub-20150505
 ***************************************/
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<a href="#" class="ghost-white">Ghost Button</a>
+<div class="rt-tag">content</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ghost</tabTrigger>
+	<tabTrigger>rt-tag</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

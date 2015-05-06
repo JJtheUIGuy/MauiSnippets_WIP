@@ -1,33 +1,54 @@
 <snippet>
 	<content><![CDATA[
-/* Masonry
-================================================== */
-*,
-*:before,
-*:after {
-  box-sizing: border-box !important;
-}
 
-/**************************************
-Apply .mason + .container to structure tags
-you wish to flow masonry columns inside of
-**************************************/
-
-.mason>.row {
- -moz-column-width: 18em;
- -webkit-column-width: 18em;
- -moz-column-gap: 1em;
- -webkit-column-gap:1em;  
-}
-.brick {
- display: inline-block;
- padding:  .25rem;
- width:  100%; 
-}
-.well {
- position:relative;
- display: block;
-}
+<!-- Start: masonry -->
+	<section class="container mason">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="well">
+						<img src="http://dummyimage.com/300x300/f00/fff" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End: mason -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>masonry</tabTrigger>
