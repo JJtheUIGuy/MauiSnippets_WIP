@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" type="text/css" href="css/mauinav.css">
+<nav class="nav-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="no-class">
+					<img src="http://dummyimage.com/140x100/f00/fff" class="img-responsive">
+					<div id="maui-menu-toggle"><i class="fa fa-list-ul"></i></div>
+				</div>
+			</div>
+			<div class="col-sm-10 no-pad">
+				<div class="menu-items" id="maui-menu-hidden">
+					<ul>
+						<li><a href="#">button one</a></li>
+						<li><a href="#">button two</a></li>
+						<li><a href="#">button three</a></li>
+						<li><a href="#">button four</a></li>
+						<li><a href="#">button five</a></li>
+						<li><a href="#">button six</a></li>
+					</ul>
+				</div>	    
+			</div>
+		</div>
+	</div>
+<nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mauinav</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

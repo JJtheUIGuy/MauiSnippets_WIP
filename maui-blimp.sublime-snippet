@@ -6,6 +6,148 @@ For more information visit: www.mauitoolbox.com/blimp/
 ######################################
 DO NOT EDIT THIS PAGE
 ######################################*/
+
+/***************************************
+End hidden classes for blimp
+######################################*/
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .hidden-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1739px) {
+  .hidden-2x {
+    display: none !important;
+  }
+}
+@media (min-width: 1740px) and (max-width: 1999) {
+  .hidden-3x {
+    display: none !important;
+  }
+}
+@media (min-width: 2000px) {
+  .hidden-3x {
+    display: none !important;
+  }
+}
+
+/***************************************
+End hidden classes for blimp
+######################################*/
+
+/***************************************
+Start visable classes for blimp
+######################################*/
+.visible-xl,
+.visible-2x {
+  display: none !important;
+}
+.visible-xl-block,
+.visible-xl-inline,
+.visible-xl-inline-block,
+.visible-2x-block,
+.visible-2x-inline,
+.visible-2x-inline-block,
+.visible-3x-block,
+.visible-3x-inline,
+.visible-3x-inline-block, {
+  }  display: none !important;
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .visible-xl {
+    display: block !important;
+  }
+  table.visible-xl {
+    display: table !important;
+  }
+  tr.visible-xl {
+    display: table-row !important;
+  }
+  th.visible-xl,
+  td.visible-xl {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .visible-xl-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .visible-xl-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .visible-xl-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1500) and (max-width: 1739px) {
+  .visible-2x {
+    display: block !important;
+  }
+  table.visible-2x {
+    display: table !important;
+  }
+  tr.visible-2x {
+    display: table-row !important;
+  }
+  th.visible-2x,
+  td.visible-2x {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1500) and (max-width: 1739px) {
+  .visible-2x-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1500) and (max-width: 1739px) {
+  .visible-2x-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1500) and (max-width: 1739px) {
+  .visible-2x-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 2000px) {
+  .visible-3x {
+    display: block !important;
+  }
+  table.visible-3x {
+    display: table !important;
+  }
+  tr.visible-3x {
+    display: table-row !important;
+  }
+  th.visible-3x,
+  td.visible-3x {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 2000px) {
+  .visible-3x-block {
+    display: block !important;
+  }
+}
+@media (min-width: 2000px) {
+  .visible-3x-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 2000px) {
+  .visible-3x-inline-block {
+    display: inline-block !important;
+  }
+}
+/***************************************
+End visable classes for blimp
+######################################*/
+
 @media (min-width: 1500px) {
   .container {
     width: 1470px;

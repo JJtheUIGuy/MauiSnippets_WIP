@@ -1,0 +1,71 @@
+<snippet>
+	<content><![CDATA[
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+<!-- Start Item Active -->
+        <div class="item active">
+            <div class="holder col-sm-12">
+                <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                </div>
+            </div>
+        </div>
+<!-- Start Items to follow -->
+        <div class="item">
+            <div class="holder col-sm-12">
+                <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="holder col-sm-12">
+                <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="holder col-sm-12">
+                <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Start Controls -->
+    <div class="controllers col-xs-12">
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+<!-- Start Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol> 
+    </div>
+</div>
+
+]]>
+    </content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

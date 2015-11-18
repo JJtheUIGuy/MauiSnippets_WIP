@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+	-webkit-animation: ${1} 5s infinite;
+	animation: ${1} 5s infinite;
+}
+	@-webkit-keyframes ${1} {
+		0%	    {${2}}
+		${4}
+		100%	{${3}}
+	}
+	@keyframes my movie ${1}{
+		0%	    {${2}}
+		${4}
+		100%	{${3}}
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>keyframes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

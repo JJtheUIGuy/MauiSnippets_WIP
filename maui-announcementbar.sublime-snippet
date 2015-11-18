@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<!-- ======================================= -->
+<!-- *****ADD THIS ON TOP OF HEADER/NAVBAR INCLUDE
+This determines where the announcement bar will appear. We usually want this on the top.  However, if your navbar has "position: fixed, this bar will display right below the navbar. -->
+
+<!--ANNOUNCEMENTS (holidays, schedule changes, technical difficulties)-->
+<div id="announcementbar"></div>
+
+<!-- ======================================= -->
+<!-- *****CREATE includes/announcement.html and COPY AND PASTE THIS SECTION IN THERE-->
+
+<span id="announcement">
+<!-- *****TYPE IN ANNOUNCEMENT HERE inside of <span id="announcement>.******
+If there IS an announcement, a top bar will appear.
+If there is NOT an announcement, the bar will not display. Colors and font-sizes can be changed in #announcement in styles.css. -->
+    
+    Happy New Year!!
+</span>
+
+<!--X button to close the announcement bar-->
+<a href="#" data-toggle="tooltip" title="Close this announcement" class="close-announcement" aria-label="Close" data-placement="left"><span aria-hidden="true">&times;</span></a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>announcementbar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

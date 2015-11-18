@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+-webkit-flex-grow: ${1:#};
+-webkit-flex-shrink: ${2:#};
+-webkit-flex-basis: ${3:size in px};
+flexgrow: 	 ${1:#};
+flexshrink:	 ${2:#};
+flexbasis: 	 ${3:size in px};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>flexmore</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
