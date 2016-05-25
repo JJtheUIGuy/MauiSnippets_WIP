@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<!-- Start: the_content -->
+<section class="the_content">
+  <div class="container">
+    <div class="row">
+       <div class="col-xs-12">
+         <?php the_content('');?>
+       </div>
+    </div>
+  </div>
+</section>
+<!-- End: the_content -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>content</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
