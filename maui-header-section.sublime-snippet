@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<!-- Start: ${1} -->
+<header class="$1">
+	<div class="container">
+		<div class="row">
+			${2:}
+		</div>
+	</div>
+</header>
+<!-- End: $1 -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -21,7 +21,21 @@ Weights:
 
 /* Nav / Menus
 ================= */
-
+.nav-background {
+	background: #5fb3bb;
+	}
+.navbar-default {
+	background-color: #5fb3bb;
+	}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ee7361;
+	}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #b0ecf1;
+	}
 
 /* Header
 ================= */

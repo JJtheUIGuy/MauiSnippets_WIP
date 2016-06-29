@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				${1}
+			</div>
+			<div class="col-sm-6">
+				${2}
+			</div>
+		</div>
+	</div>
+	<div class="disclaimer">
+		Copyright 2014 MauiToolBox.com All content is offered free of charge. Code licensed under MIT Open Source License.
+	</div>
+</footer>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mauifooter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
