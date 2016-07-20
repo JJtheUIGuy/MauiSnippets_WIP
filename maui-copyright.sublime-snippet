@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-		<img src="http://dummyimage.com/600x400/f00/fff" class="img-responsive">
-		<h${2}>${3}</h$2>
-		<p>${4}</p>
+<div class="copyright">© 2016 ${1}. All Rights Reserved.</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>photoontop</tabTrigger>
+	<tabTrigger>copyright</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

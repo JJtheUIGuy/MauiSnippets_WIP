@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<div class="row">
-	<div class="col-sm-${1}">
-		<h${2}>${3}</h$2>
-		<img src="http://dummyimage.com/600x400/f00/fff" class="img-responsive">
-		<p>${4}</p>
-	</div>
+<div class="col-sm-${1}">
+	<h${2}>${3}</h$2>
+	<img src="http://dummyimage.com/600x400/f00/fff" class="img-responsive">
+	<p>${4}</p>
 </div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
