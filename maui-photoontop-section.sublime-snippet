@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-		<img src="http://dummyimage.com/600x400/f00/fff" class="img-responsive">
-		<h${2}>${3}</h$2>
-		<p>${4}</p>
+<img src="http://dummyimage.com/600x400/f00/fff" class="img-responsive">
+<h${2}>${3}</h$2>
+<p>${4}</p>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>photoontop</tabTrigger>
