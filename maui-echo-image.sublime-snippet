@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<img class="img-repsonsive" src="<?php echo \$${1}['url']; ?>" alt="<?php echo \$${1}['alt']; ?>">
+<img class="img-responsive" src="<?php echo \$${1}['url']; ?>" alt="<?php echo \$${1}['alt']; ?>">
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>echoimage</tabTrigger>
