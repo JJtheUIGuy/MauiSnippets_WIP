@@ -1,0 +1,54 @@
+<snippet>
+	<content><![CDATA[
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 no-pad">
+      <div id="carousel-B" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        
+          <div class="item active">
+            <div class="holder col-sm-12 no-pad">
+              <div class="carousel-height">
+                <div class="carousel-back-B">
+                </div>
+              </div>
+              <div class="carousel-caption-B">
+                <h1>Name</h1>
+                <p>paragraph</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="holder col-sm-12 no-pad">
+              <div class="carousel-height">
+                <div class="carousel-back-B">
+                </div>
+              </div>
+              <div class="carousel-caption-B">
+                <h1>Name</h1>
+                <p>paragraph</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="controllers col-xs-12">
+          <a class="left carousel-control" href="#carousel-B" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-B" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel-b</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

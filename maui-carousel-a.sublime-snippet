@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 no-pad">
+      <div id="carousel-A" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        
+          <div class="item active">
+            <div class="holder col-sm-12 no-pad">
+              <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+              <div class="carousel-caption-A">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="holder col-sm-12 no-pad">
+              <img class="img-responsive" src="http://placehold.it/2880x800">
+            </div>
+            <div class="col-sm-12">
+              <div class="carousel-caption-A">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="controllers col-xs-12">
+          <a class="left carousel-control" data-slide="prev" href="#carousel-A">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" data-slide="next" href="#carousel-A">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel-a</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -13,7 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/blimp.css">
-		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/maui.css">	
+		<link rel="stylesheet" type="text/css" href="http://gl-dev-staticweb.s3.amazonaws.com/maui_2_0.css">	
 <!-- Style Sheets ============================== -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 <!-- Additional Style Sheets =================== -->
@@ -28,10 +28,14 @@
 <!-- Default Scripts =========================== -->
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="https://gl-dev-staticfile.s3.amazonaws.com/notifications.js"></script>
-		<script src="http://gl-dev-staticweb.s3.amazonaws.com/scrollto.js"></script>
 <!-- Custom Scripts below this line ============ -->
-
+	<script>
+		$(window).bind("load resize slid.bs.carousel", function() {
+			var imageHeight = $(".active .holder").height();
+			$(".controllers").height( imageHeight );
+			console.log("Slid");
+		});
+    </script>
 	</body>
 </html>
 ]]></content>

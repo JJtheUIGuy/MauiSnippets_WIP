@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<div id="carousel-D" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner" role="listbox">
+  
+		<div class="carousel-D-01 item active">
+      <img src="img/image.jpg" class="img-responsive center-block">
+      <div class="carousel-caption">
+        <p>Highly experienced in the education, training, learning & development field, Adam ensures all learning at the company matches business process and future growth.</p>
+        <p>Adam, Learning & Development Manager</p>
+        <p><strong>Get to know Adam</strong> <span class="glyphicon glyphicon-chevron-right"></span></p>
+      </div>
+		</div>
+    
+    <div class="carousel-D-01 item">
+      <img src="img/image.jpg" class="img-responsive center-block">
+      <div class="carousel-caption">
+        <p>Highly experienced in the education, training, learning & development field, Adam ensures all learning at the company matches business process and future growth.</p>
+        <p>Adam, Learning & Development Manager</p>
+        <p><strong>Get to know Adam</strong> <span class="glyphicon glyphicon-chevron-right"></span></p>
+      </div>
+		</div>
+    
+	</div>
+  <a href="#carousel-D" class="left carousel-control" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+  <a href="#carousel-D" class="right carousel-control" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>carousel-d</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
