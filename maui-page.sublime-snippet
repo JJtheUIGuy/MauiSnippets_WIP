@@ -30,9 +30,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <!-- Custom Scripts below this line ============ -->
 	<script>
-		$(window).bind("load resize slid.bs.carousel", function() {
-			var imageHeight = $(".active .holder").height();
-			$(".controllers").height( imageHeight );
+		\$(window).bind("load resize slid.bs.carousel", function() {
+			var imageHeight = \$(".active .holder").height();
+			\$(".controllers").height( imageHeight );
 			console.log("Slid");
 		});
     </script>
