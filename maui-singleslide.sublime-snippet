@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="item">   
+	<div class="carousel-img-container relative-pos">
+		<img src="${1}" alt="" class="img-responsive center-block slider-img">
+		<button class="gl-btn bannerad-btn enlarge-btn hidden-xs" style="display: none;"><i class="fa fa-search-plus" aria-hidden="true"></i> Enlarge</button>
+	</div>
+    <div class="slideshow-caption">
+		<p class="caption"><strong>${2}</strong> ${3}</p>
+	</div><!--/slideshow-caption-->
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>slide</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
