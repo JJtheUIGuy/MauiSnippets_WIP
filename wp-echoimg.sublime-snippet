@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<img src="<?php echo ${1}['url'] ?>" alt="<?php echo ${1}['alt'] ?>" class="img-responsive ${2}">${3}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>echoimg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

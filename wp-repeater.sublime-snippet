@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+<!--REPEATER-->
+<?php 
+	\$\${1:Repeater Name} = get_field('\${1:Repeater Name}');
+?>
+
+<?php if( have_rows('\${1:Repeater Name}') ): ?>
+	
+<!-- ****Code and beginning divs -->
+  
+
+	<?php 
+		\$index = 0;  //optional
+		\$question_count = count(\$\${1:Repeater Name});
+
+		while( have_rows('\${1:Repeater Name}') ): the_row(); 
+
+		// variables within the repeater
+		\${2: Sub Field Name} = get_sub_field('{2: Sub Field Name}');
+
+		\$index++;  //optional
+	?>
+
+<!-- ***Code that is repeated for every repeater row -->
+  
+
+	<?php endwhile; ?>
+
+<!-- ****Code and END divs if there are posts for this category -->
+  
+
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>repeater</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
