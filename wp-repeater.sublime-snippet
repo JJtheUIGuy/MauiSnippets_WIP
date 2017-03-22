@@ -2,28 +2,27 @@
 	<content><![CDATA[
 <!--REPEATER-->
 <?php 
-	\$\${1:Repeater Name} = get_field('\${1:Repeater Name}');
+	\$${1:Repeater Name} = get_field('${1:Repeater Name}');
 ?>
 
-<?php if( have_rows('\${1:Repeater Name}') ): ?>
+<?php if( have_rows('${1:Repeater Name}') ): ?>
 	
 <!-- ****Code and beginning divs -->
   
 
 	<?php 
 		\$index = 0;  //optional
-		\$question_count = count(\$\${1:Repeater Name});
 
-		while( have_rows('\${1:Repeater Name}') ): the_row(); 
+		while( have_rows('${1:Repeater Name}') ): the_row(); 
 
 		// variables within the repeater
-		\${2: Sub Field Name} = get_sub_field('{2: Sub Field Name}');
+		\$${2: Sub Field Name} = get_sub_field('${2: Sub Field Name}');
 
 		\$index++;  //optional
 	?>
 
 <!-- ***Code that is repeated for every repeater row -->
-  
+	${3}
 
 	<?php endwhile; ?>
 
@@ -31,6 +30,7 @@
   
 
 <?php endif; ?>
+	${4}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>repeater</tabTrigger>
